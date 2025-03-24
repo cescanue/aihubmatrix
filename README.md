@@ -71,6 +71,12 @@
 
 AIHubMatrix is a powerful, flexible, and user-friendly web application designed to be your single point of interaction with a wide range of AI models from different providers. It's built for researchers, developers, and anyone who wants to experiment with and compare different AI models without the hassle of switching between platforms. AIHubMatrix solves the problem of fragmented AI interaction by providing a central hub, advanced conversation management, and unique features like in-conversation model switching. It allows you to seamlessly switch between models, manage complex conversations, organize your work with folders, and integrate with multiple leading AI providers.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/main-interface.png" alt="AIHubMatrix Main Interface" width="800" />
+  <br>
+  <em>AIHubMatrix main interface showing the conversation area, sidebar, and model selection</em>
+</p>
+
 Rather than being locked into a single AI provider or model, AIHubMatrix serves as your central hub for AI interactions, adapting to your specific needs with a clean, intuitive interface. The system comes pre-configured with templates for the most popular models, but you can easily add any model that works with the supported APIs.
 
 ## Key Differentiators
@@ -81,6 +87,12 @@ What truly sets AIHubMatrix apart from other AI interfaces? Here are the feature
 
 This is a game-changer. Most AI interfaces lock you into a single model for an entire conversation. AIHubMatrix lets you *change models on the fly, mid-conversation*. Ask a question with one model, get a response, then switch to a different model for a different perspective or to leverage its specific strengths. This is invaluable for:
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/model-switching.png" alt="In-Conversation Model Switching" width="600" />
+  <br>
+  <em>Seamlessly switch between AI models in the middle of your conversation</em>
+</p>
+
 - **Comparative Analysis:** Directly compare how different AIs approach the same prompt.
 - **Task Specialization:** Use the best model for each stage of your workflow (e.g., brainstorming with one model, refining with another).
 - **Fallback Options:** If one model struggles, instantly switch to another.
@@ -89,6 +101,12 @@ This is a game-changer. Most AI interfaces lock you into a single model for an e
 ### 🎛️ Fine-Grained Conversation Control
 
 AIHubMatrix gives you unprecedented control over your conversation history:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/message-control.png" alt="Message Control Options" width="500" />
+  <br>
+  <em>Control individual messages in your conversation context</em>
+</p>
 
 - **Message Exclusion/Inclusion:** Don't just delete messages – *exclude* them from the AI's context. This lets you experiment with different lines of questioning without permanently losing your work. You can toggle messages in and out of the context as needed.
 - **Selective Deletion:** Of course, you can also permanently delete messages if you choose.
@@ -114,9 +132,21 @@ Never lose your work due to a dropped connection. AIHubMatrix:
 
 Unlike many interfaces that only offer a flat list of conversations, AIHubMatrix lets you organize your work into hierarchical folders, just like you would on your computer.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/folder-organization.png" alt="Folder Organization" width="350" />
+  <br>
+  <em>Organize your conversations with a hierarchical folder structure</em>
+</p>
+
 ### 💾 Conversation Cache
 
 Pre-load context and files into a specific conversation, giving you fine-grained control over the AI's "knowledge base" for that interaction.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/conversation-cache.png" alt="Conversation Cache" width="600" />
+  <br>
+  <em>Add context and files to your conversation cache</em>
+</p>
 
 ### 🛠️ Developer-Friendly
 
@@ -133,9 +163,23 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 * **Multiple AI Providers:** OpenAI (including Assistants API), Anthropic (Claude), Google Gemini, DeepSeek, Grok, and local models (Ollama, LM Studio).
 * **Persistent Conversations:** Your conversations are automatically saved and organized.
 * **Conversation Management:** Create, rename, delete, and organize conversations.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/conversation-management.png" alt="Conversation Management" width="400" />
+  <br>
+  <em>Manage your conversations with intuitive context menus</em>
+</p>
+
 * **Folder Management:** Create, rename, delete, and organize folders. Drag and drop conversations and folders.
 * **Message Control:** Exclude/include individual messages from the AI's context.
 * **File Uploads:** Upload images, PDFs, DOCX, XLSX, TXT, code files, and more.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/file-processing.png" alt="File Processing" width="700" />
+  <br>
+  <em>Upload and process various file types, including images and documents</em>
+</p>
+
 * **Image Processing:** Automatic image analysis for text-only models (using Google Vision).
 * **PDF Processing:** Choose between native PDF handling, OCR (using Google Vision), or text extraction.
 * **Code Highlighting:** Syntax highlighting for code snippets.
@@ -143,9 +187,23 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 * **Streaming Support:** Real-time responses from models that support streaming.
 * **Multi-User Support:** User authentication and authorization.
 * **Admin Panel:** Manage users and system settings.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/admin-panel.png" alt="Admin Panel" width="700" />
+  <br>
+  <em>Administrative panel for user and system management</em>
+</p>
+
 * **Debug Tools:** View the raw JSON request being sent to the AI provider.
 * **Responsive Design:** Works well on desktop and mobile devices.
 * **Dark/Light Mode:** Choose your preferred theme.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/theme-toggle.png" alt="Dark and Light Themes" width="800" />
+  <br>
+  <em>AIHubMatrix supports both dark and light themes</em>
+</p>
+
 * **Customizable System Directives:** Set global instructions for models that support them.
 * **Conversation Cache:** Pre-load context and files for specific conversations.
 * **Retry Mechanism:** Automatic retries for failed API requests.
@@ -166,10 +224,9 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/aihubmatrix.git
+   git clone https://github.com/cescanue/aihubmatrix.git
    cd aihubmatrix/Docker
    ```
-   **Replace `yourusername/aihubmatrix.git` with the actual URL of your GitHub repository.**
 
 2. **Create a `.env` file:**
 
@@ -195,6 +252,12 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
      Paste the output into the `.env` file.
 
 4. **Configure AI Models (models-config.json):**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/model-configuration.png" alt="Model Configuration" width="700" />
+  <br>
+  <em>Configure and customize AI models</em>
+</p>
 
    * Edit `Docker/node/src/config_templates/models-config.json`.
    * **Obtain API Keys:** You *must* obtain API keys from the AI providers you want to use (OpenAI, Anthropic, Google, etc.). See the "API Integration" section below for links to their documentation.
