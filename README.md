@@ -612,7 +612,7 @@ If you encounter any issues or have questions about AIHubMatrix, please:
 
 1. Check the [Troubleshooting](#troubleshooting) section
 2. Search for existing issues in the GitHub repository
-3. Contact the administrator at support@aihubmatrix.com
+3. Contact the administrator at cescanuela@gmail.com
 
 For enterprise support options, please visit our website.
 
