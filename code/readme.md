@@ -1,7 +1,7 @@
 # AIHubMatrix: Your Universal AI Interface
 
 <div align="center">
-  <img src="./images/logo.svg" alt="AIHubMatrix Logo" width="300" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/logo.png" alt="AIHubMatrix Logo" width="300" />
   <h3>The ultimate interface for seamless interaction with any AI model</h3>
 </div>
 
