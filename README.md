@@ -87,7 +87,7 @@ What truly sets AIHubMatrix apart from other AI interfaces? Here are the feature
 This is a game-changer. Most AI interfaces lock you into a single model for an entire conversation. AIHubMatrix lets you *change models on the fly, mid-conversation*. Ask a question with one model, get a response, then switch to a different model for a different perspective or to leverage its specific strengths. This is invaluable for:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/model-switching.png" alt="In-Conversation Model Switching" width="600" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/model-switching.png" alt="In-Conversation Model Switching" width="350" />
   <br>
   <em>Seamlessly switch between AI models in the middle of your conversation</em>
 </p>
@@ -102,7 +102,7 @@ This is a game-changer. Most AI interfaces lock you into a single model for an e
 AIHubMatrix gives you unprecedented control over your conversation history:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/message-control.png" alt="Message Control Options" width="500" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/message-control.png" alt="Message Control Options" width="350" />
   <br>
   <em>Control individual messages in your conversation context</em>
 </p>
@@ -142,7 +142,7 @@ Unlike many interfaces that only offer a flat list of conversations, AIHubMatrix
 Pre-load context and files into a specific conversation, giving you fine-grained control over the AI's "knowledge base" for that interaction.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/conversation-cache.png" alt="Conversation Cache" width="600" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/conversation-cache.png" alt="Conversation Cache" width="400" />
   <br>
   <em>Add context and files to your conversation cache</em>
 </p>
@@ -174,7 +174,7 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 * **File Uploads:** Upload images, PDFs, DOCX, XLSX, TXT, code files, and more.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/file-processing.png" alt="File Processing" width="700" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/file-processing.png" alt="File Processing" width="350" />
   <br>
   <em>Upload and process various file types, including images and documents</em>
 </p>
@@ -188,7 +188,7 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 * **Admin Panel:** Manage users and system settings.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/admin-panel.png" alt="Admin Panel" width="700" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/admin-panel.png" alt="Admin Panel" width="500" />
   <br>
   <em>Administrative panel for user and system management</em>
 </p>
@@ -198,7 +198,7 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 * **Dark/Light Mode:** Choose your preferred theme.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/theme-toggle.png" alt="Dark and Light Themes" width="800" />
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/theme-toggle.png" alt="Dark and Light Themes" width="400" />
   <br>
   <em>AIHubMatrix supports both dark and light themes</em>
 </p>
