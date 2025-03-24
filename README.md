@@ -60,7 +60,6 @@
 - [Troubleshooting](#troubleshooting)
 - [Security Considerations](#security-considerations)
 - [Roadmap](#roadmap)
-- [Versioning](#versioning)
 - [Authors/Maintainers](#authorsmaintainers)
 - [Support](#support)
 - [License](#license)
