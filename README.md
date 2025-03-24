@@ -10,6 +10,28 @@
 
 ---
 
+## ✨ LIVE DEMO AVAILABLE! ✨
+
+<div align="center">
+  <h3>🚀 <a href="https://www.aihubmatrix.com">https://www.aihubmatrix.com</a> 🚀</h3>
+  <p><strong>Try AIHubMatrix right now without installing anything!</strong></p>
+</div>
+
+### Demo Features:
+
+| 🤖 | **Available models:** DeepSeek R1, Gemini 2.0 Pro Experimental |
+|:--:|:----------------------------------------------------------------|
+| 🔑 | Add **your own API keys** to access all supported models |
+| ➕ | Add **any custom model** compatible with supported APIs |
+| 📝 | *Data availability not guaranteed in this demo version* |
+
+**Just register with your email and start exploring all the features!**
+
+💌 Contact: [cescanuela@gmail.com](mailto:cescanuela@gmail.com)
+
+---
+
+
 ## 📋 Table of Contents
 
 - [Introduction](#introduction)
