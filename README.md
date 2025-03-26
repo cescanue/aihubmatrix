@@ -160,6 +160,7 @@ AIHubMatrix isn't tied to a single vendor. It's designed to work with a growing 
 ## Key Features
 
 * **Multiple AI Providers:** OpenAI (including Assistants API), Anthropic (Claude), Google Gemini, DeepSeek, Grok, and local models (Ollama, LM Studio).
+* **Template Model Import:** Easily keep your model configurations up-to-date by importing new models from templates.
 * **Persistent Conversations:** Your conversations are automatically saved and organized.
 * **Conversation Management:** Create, rename, delete, and organize conversations.
 
@@ -368,6 +369,42 @@ AIHubMatrix comes pre-configured with popular models, but you can add any compat
    * **API Details:** Endpoint URL, authentication method.
    * **Model Parameters:** Context window size, temperature, token limits.
    * **Capabilities:** Vision support, system directive support, cache support.
+
+## Template Model Import
+
+AIHubMatrix includes a powerful template system that makes it easy to stay up-to-date with the latest AI models:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cescanue/aihubmatrix/main/images/template-import.png" alt="Template Model Import" width="600" />
+  <br>
+  <em>Import new models from templates with just a few clicks</em>
+</p>
+
+### How the Template System Works
+
+* **Automatic Detection:** The system automatically checks for new models available in templates.
+* **Import Notification:** A badge shows the number of new models available for import.
+* **Selective Import:** Choose which models you want to add to your configuration.
+* **Preview Details:** See model descriptions, endpoints, and capabilities before importing.
+* **Smart Integration:** Only import what's new - your existing configurations remain untouched.
+
+### Using the Template Import Feature
+
+1. Click "Configure Models" in the sidebar menu.
+2. If new template models are available, you'll see an "Import (X)" button with a badge showing the number of available models.
+3. Click the "Import" button to open the template import dialog.
+4. Review the available models - each shows its name, model ID, and description.
+5. Check/uncheck the models you want to import.
+6. Click "Import Selected Models" to add them to your configuration.
+7. Click "Save Configuration" to apply the changes.
+
+This feature is particularly useful when:
+* New AI models are released by providers
+* You want to quickly adopt industry best practices for model configuration
+* You need to set up multiple models with similar configurations
+* You're setting up a new instance of AIHubMatrix
+
+The template system ensures that your AIHubMatrix installation stays current with the rapidly evolving AI landscape without requiring manual configuration of each new model.
 
 ### File and Image Handling
 
